@@ -50,6 +50,8 @@ $colorText3: #323232;
 
 .services-container {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     .services-block {
         position: relative;
         height: 153px;
