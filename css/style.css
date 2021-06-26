@@ -587,3 +587,69 @@ h6 {
   text-align: center;
   color: #999999;
 }
+
+#footer {
+  background-color: #F6F6F8;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+#footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 70px;
+}
+#footer .container .footer-content-block {
+  min-width: 255px;
+}
+#footer .container .footer-content-block span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-align: left;
+}
+#footer .container .footer-content-block ul {
+  margin-top: 35px;
+}
+#footer .container .footer-content-block ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#footer .container .footer-content-block ul li:nth-child(4) {
+  margin-bottom: 0;
+}
+#footer .container .footer-content-block ul li img {
+  margin-right: 15px;
+}
+#footer span {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  /* grey */
+  color: #999999;
+}
