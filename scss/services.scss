@@ -48,6 +48,16 @@ $colorText3: #323232;
     color: $colorText2;
 }
 
+.h4 {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
 .services-container {
     display: flex;
     width: 100%;
@@ -82,15 +92,6 @@ $colorText3: #323232;
             }
         }
         .services-block-text {
-            h5 {
-                font-family: $montserrat;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 18px;
-                line-height: 22px;
-                color: #000000;
-                margin-bottom: 12px;
-            }
             p {
                 text-align: left !important;
                 max-width: 220px !important;

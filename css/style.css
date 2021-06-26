@@ -254,6 +254,16 @@ h6 {
   color: #999999;
 }
 
+.h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
 .services-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,15 +321,6 @@ h6 {
   border-radius: 50%;
   border: 1px solid #4985FF;
 }
-.services-container .services-block .services-block-text h5 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;
-  margin-bottom: 12px;
-}
 .services-container .services-block .services-block-text p {
   text-align: left !important;
   max-width: 220px !important;
@@ -349,16 +350,6 @@ h6 {
 .standards-content-container .standards-text-block p {
   margin: 40px 0 30px;
 }
-.standards-content-container .standards-text-block a {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #4985FF;
-}
 .standards-content-container .standards-img {
   width: 500px;
   height: 400px;
@@ -367,6 +358,17 @@ h6 {
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
+}
+
+.link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #4985FF;
 }
 
 .standards-content-container2 {
@@ -434,6 +436,8 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-width: 1110px;
+  padding-bottom: 85px;
+  border-bottom: 1px solid #E0E0E0;
 }
 #specialization .specialization-container .specialization-block-content img {
   border-radius: 10px;
@@ -449,27 +453,11 @@ h6 {
 }
 #specialization .specialization-container .specialization-block-content span h4 {
   display: inline;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: black;
   margin-left: 2px;
 }
 #specialization .specialization-container .specialization-block-content p {
   margin: 30px 0px 30px 0px;
   cursor: pointer;
-}
-#specialization .specialization-container .specialization-block-content .link {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #4985FF;
 }
 
 #projects {
@@ -534,11 +522,6 @@ h6 {
   margin-bottom: 30px;
 }
 .our-work-bg span {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 25px;
   color: #FFFFFF;
 }
 .our-work-bg .our-work-video-bg {
@@ -605,14 +588,7 @@ h6 {
   border-top: 1px solid #E0E0E0;
   padding-top: 85px;
 }
-#mailing .container h3 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
+#mailing .container h4 {
   margin-bottom: 20px;
 }
 #mailing .container .text-s {

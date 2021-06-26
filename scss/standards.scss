@@ -17,15 +17,6 @@ sans-serif;
         p {
             margin: 40px 0 30px;
         }
-        a {
-            font-family: $montserrat;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            text-decoration-line: underline;
-            color: #4985FF;
-        }
     }
     .standards-img {
         width: 500px;
@@ -35,6 +26,16 @@ sans-serif;
         box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
         border-radius: 30px;
     }
+}
+
+.link {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
 }
 
 .standards-content-container2 {
