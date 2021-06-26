@@ -397,6 +397,7 @@ h6 {
 
 #projects {
   padding: 100px 0 130px;
+  background-color: #F6F6F8;
 }
 #projects .container {
   display: -webkit-box;
@@ -429,4 +430,89 @@ h6 {
 }
 #projects .container button {
   margin: 50px auto 0;
+}
+
+.our-work-bg {
+  height: 570px;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.15))), url(../img/our-work/our-work-bg.jpg);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.15)), url(../img/our-work/our-work-bg.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  padding: 70px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.our-work-bg::before {
+  content: "";
+  width: 1110px;
+  height: 1px;
+  position: absolute;
+  bottom: -165px;
+  background-color: #E0E0E0;
+}
+.our-work-bg h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.our-work-bg span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.our-work-bg .our-work-video-bg {
+  min-width: 970px;
+  height: 430px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4))), url(../img/our-work/video-bg.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4)), url(../img/our-work/video-bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 220px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.our-work-bg .our-work-video-bg .our-work-video-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.our-work-bg .our-work-video-bg .our-work-video-btn img {
+  margin-right: 21px;
+}
+.our-work-bg .our-work-video-bg .our-work-video-btn span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
