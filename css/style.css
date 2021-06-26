@@ -451,14 +451,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
 }
-.our-work-bg::before {
-  content: "";
-  width: 1110px;
-  height: 1px;
-  position: absolute;
-  bottom: -165px;
-  background-color: #E0E0E0;
-}
 .our-work-bg h2 {
   color: white;
   text-align: center;
@@ -492,6 +484,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 10px;
 }
 .our-work-bg .our-work-video-bg .our-work-video-btn {
   display: -webkit-box;
@@ -515,4 +508,82 @@ h6 {
   font-size: 16px;
   line-height: 25px;
   color: #FFFFFF;
+}
+
+#mailing {
+  padding: 0px 0px 85px 0px;
+}
+#mailing .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 165px;
+  border-top: 1px solid #E0E0E0;
+  padding-top: 85px;
+}
+#mailing .container h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+#mailing .container .text-s {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#mailing .container .mailing-container-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+#mailing .container .mailing-container-email input {
+  width: 299px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  padding: 15px 0 15px 13px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px 0px 0px 30px;
+}
+#mailing .container .mailing-container-email button {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  padding: 15px 36px 15px 26px;
+}
+#mailing .container .mailing-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
 }
