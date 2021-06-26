@@ -395,6 +395,83 @@ h6 {
   color: #000000;
 }
 
+#specialization {
+  position: relative;
+  padding-bottom: 482px;
+}
+#specialization .specialization-bg {
+  padding-top: 100px;
+  height: 490px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20.44%, #504DC2), color-stop(80.91%, #5F12D0)), #C4C4C4;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+#specialization .specialization-bg .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#specialization .specialization-bg .container h2 {
+  color: white;
+  max-width: 540px;
+}
+#specialization .specialization-container {
+  position: absolute;
+  top: 258px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 1110px;
+}
+#specialization .specialization-container .specialization-block-content img {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#specialization .specialization-container .specialization-block-content span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4985FF;
+}
+#specialization .specialization-container .specialization-block-content span h4 {
+  display: inline;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  margin-left: 2px;
+}
+#specialization .specialization-container .specialization-block-content p {
+  margin: 30px 0px 30px 0px;
+  cursor: pointer;
+}
+#specialization .specialization-container .specialization-block-content .link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #4985FF;
+}
+
 #projects {
   padding: 100px 0 130px;
   background-color: #F6F6F8;
@@ -650,6 +727,5 @@ h6 {
   font-size: 13px;
   line-height: 21px;
   text-align: center;
-  /* grey */
   color: #999999;
 }
