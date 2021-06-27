@@ -7,7 +7,11 @@ sans-serif;
 
 .standards-content-container {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 90px;
@@ -23,6 +27,7 @@ sans-serif;
         height: 400px;
         background: url(../img/standards/standards-img.jpeg);
         background-size: 100% 100%;
+        -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
         box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
         border-radius: 30px;
     }
@@ -34,16 +39,23 @@ sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
     color: #4985FF;
 }
 
 .standards-content-container2 {
     padding: 70px 80px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     .standards-content-block {
         div {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             img {
                 margin-right: 20px;
@@ -81,16 +93,32 @@ sans-serif;
     }
     .standards-content-container {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         padding-bottom: 40px;
         .standards-text-block {
             max-width: 489px;
             margin-top: 52px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             p {
                 margin: 40px 0px 30px 0px;
@@ -105,8 +133,14 @@ sans-serif;
         padding: 25px 5px;
         .standards-content-block {
             div {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
                 align-items: center;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
                 justify-content: space-between;
                 img {
                     width: 15px;

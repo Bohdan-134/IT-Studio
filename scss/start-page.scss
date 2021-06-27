@@ -5,9 +5,16 @@ $colorText:white;
 #start-page {
     width: 100%;
     height: 100vh;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/start-page-bg.jpg);
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/start-page-bg.jpg);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/start-page-bg.jpg);
     background-size: 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     overflow: hidden;
     position: relative;
@@ -16,15 +23,27 @@ $colorText:white;
         height: 100vh;
         width: 100%;
         background-color: #ffffff66;
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         position: fixed;
         z-index: 2;
         top: -100%;
         left: 0%;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
         transition: 0.5s;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         nav {
             ul {
@@ -47,14 +66,20 @@ $colorText:white;
             cursor: pointer;
         }
     }
-    .open-menu {
-        top: 0%;
-    }
     .container {
         margin-top: 220px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         span {
             font-family: $montserrat;
@@ -106,6 +131,7 @@ $colorText:white;
     width: 200px;
     height: 45px;
     background: $bgButton;
+    -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
     font-family: Montserrat;
@@ -115,6 +141,8 @@ $colorText:white;
     line-height: 20px;
     text-align: center;
     color: $colorText;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
@@ -125,19 +153,31 @@ $colorText:white;
 #header {
     width: 100%;
     height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid #A1A1A1;
     nav {
         margin-right: 21%;
         ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             height: 100%;
         }
         li {
             height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             font-family: $montserrat;
             font-style: normal;
@@ -159,10 +199,16 @@ $colorText:white;
                 position: absolute;
                 bottom: 0;
                 left: 0;
+                -webkit-transform: scale(0);
+                -ms-transform: scale(0);
                 transform: scale(0);
+                -webkit-transition: 0.5s;
+                -o-transition: 0.5s;
                 transition: 0.5s;
             }
             &:hover::before {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
                 transform: scale(1);
             }
         }
@@ -178,6 +224,8 @@ $colorText:white;
 
 @media (max-width:1024px) {
     #start-page {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/start-page-bg-1024.png);
+        background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/start-page-bg-1024.png);
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/start-page-bg-1024.png);
         background-size: 100% 100%;
         .container {
@@ -187,8 +235,14 @@ $colorText:white;
         }
     }
     #header {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         nav {
             margin-right: 0px;
@@ -200,7 +254,17 @@ $colorText:white;
 }
 
 @media (max-width:900px) {
+    #start-page {
+        .container {
+            margin-top: 100px;
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
     #header {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
         nav {
             display: none;

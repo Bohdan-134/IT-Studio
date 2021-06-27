@@ -3,7 +3,11 @@
     padding-top: 70px;
     padding-bottom: 30px;
     .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         border-bottom: 1px solid #E0E0E0;
         padding-bottom: 70px;
@@ -27,10 +31,16 @@
                     font-size: 14px;
                     line-height: 22px;
                     color: #999999;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
                     align-items: center;
                     cursor: pointer;
                     margin-bottom: 30px;
+                    -webkit-transition: 0.5s;
+                    -o-transition: 0.5s;
                     transition: 0.5s;
                     &:nth-child(4) {
                         margin-bottom: 0;
@@ -82,7 +92,12 @@
         padding-top: 35px;
         padding-bottom: 15px;
         .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
             padding-bottom: 35px;
             .footer-content-block {
