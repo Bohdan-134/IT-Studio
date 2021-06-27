@@ -101,6 +101,54 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#start-page .menu {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff66;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  left: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#start-page .menu nav ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 20px;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#start-page .menu #closed-btn-menu {
+  font-size: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#start-page .open-menu {
+  top: 0%;
 }
 #start-page .container {
   margin-top: 220px;
@@ -193,6 +241,9 @@ h6 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #A1A1A1;
 }
 #header nav {
@@ -242,6 +293,13 @@ h6 {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+#header #btn-menu {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+  position: relative;
+}
 
 @media (max-width: 1024px) {
   #start-page {
@@ -269,6 +327,19 @@ h6 {
   }
   #header nav ul {
     width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  #header {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #header nav {
+    display: none;
+  }
+  #header #btn-menu {
+    display: block;
   }
 }
 .container {
@@ -912,25 +983,21 @@ h6 {
   .container {
     max-width: 900px;
   }
+}
+@media (max-width: 900px) {
+  .h2 {
+    font-size: 26px;
+  }
 
-  /*  .h2 {
-      font-size: 26px;
-  }
   .h4 {
-      font-size: 15px;
+    font-size: 15px;
   }
+
   .text-s {
-      font-size: 12px;
+    font-size: 12px;
   }
-  #footer {
-      .container {
-          .footer-content-block {
-              ul {
-                  li {
-                      font-size: 12px;
-                  }
-              }
-          }
-      }
-  } */
+
+  #footer .container .footer-content-block ul li {
+    font-size: 12px;
+  }
 }
