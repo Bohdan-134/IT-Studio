@@ -59,3 +59,18 @@ sans-serif;
         }
     }
 }
+
+@media (max-width:1150px) {
+    .standards-content-container {
+        .standards-text-block {
+            margin-top: 0;
+            p {
+                max-width: 400px;
+            }
+        }
+        .standards-img {
+            width: 450px;
+            height: 350px;
+        }
+    }
+}

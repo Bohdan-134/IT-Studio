@@ -7,3 +7,28 @@
 @import "our-work.scss";
 @import "mailing.scss";
 @import "footer.scss";
+@media (max-width:1150px) {
+    .container {
+        max-width: 900px;
+    }
+    /*  .h2 {
+        font-size: 26px;
+    }
+    .h4 {
+        font-size: 15px;
+    }
+    .text-s {
+        font-size: 12px;
+    }
+    #footer {
+        .container {
+            .footer-content-block {
+                ul {
+                    li {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    } */
+}

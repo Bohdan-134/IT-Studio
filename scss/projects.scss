@@ -17,9 +17,29 @@
             width: 100%;
             display: flex;
             justify-content: space-between;
+            cursor: pointer;
+            img {
+                transition: 0.5s;
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
         }
         button {
             margin: 50px auto 0;
+        }
+    }
+}
+
+@media (max-width:1150px) {
+    #projects {
+        .container {
+            .projects-img-container {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
         }
     }
 }
