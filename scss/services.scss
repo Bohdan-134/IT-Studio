@@ -140,3 +140,22 @@ $colorText3: #323232;
         }
     }
 }
+
+@media (max-width:900px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .services-block {
+            margin-bottom: 20px;
+            .services-block-text {
+                p {
+                    text-align: center !important;
+                    max-width: 100% !important;
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+}

@@ -514,6 +514,29 @@ h6 {
     text-align: center !important;
   }
 }
+@media (max-width: 900px) {
+  .services-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .services-container .services-block {
+    margin-bottom: 20px;
+  }
+  .services-container .services-block .services-block-text p {
+    text-align: center !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
 #standarts {
   padding: 100px 0 70px;
   background-color: #F6F6F8;
@@ -594,6 +617,75 @@ h6 {
   .standards-content-container .standards-img {
     width: 450px;
     height: 350px;
+  }
+}
+@media (max-width: 900px) {
+  #standarts {
+    padding: 50px 0 35px;
+  }
+
+  .standards-content-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 40px;
+  }
+  .standards-content-container .standards-text-block {
+    max-width: 489px;
+    margin-top: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .standards-content-container .standards-text-block p {
+    margin: 40px 0px 30px 0px;
+    text-align: center;
+  }
+  .standards-content-container .standards-text-block h2 {
+    text-align: center;
+  }
+
+  .standards-content-container2 {
+    padding: 25px 5px;
+  }
+  .standards-content-container2 .standards-content-block div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .standards-content-container2 .standards-content-block div img {
+    width: 15px;
+    height: 38px;
+  }
+  .standards-content-container2 .standards-content-block div p {
+    font-size: 18px;
+  }
+  .standards-content-container2 .standards-content-block span {
+    font-size: 10px;
   }
 }
 #specialization {
