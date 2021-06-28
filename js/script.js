@@ -7,5 +7,5 @@ btnOpenMenu.onclick = function() {
 }
 
 closedBtnMenu.onclick = function() {
-    menu.style.top = "-100%";
+    menu.style.top = "-200%";
 }
