@@ -168,6 +168,7 @@ $colorText:white;
     border-bottom: 1px solid #A1A1A1;
     nav {
         margin-right: 21%;
+        height: 100%;
         ul {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -259,10 +260,10 @@ $colorText:white;
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
     #start-page {
+        height: 100vh;
         .container {
-            margin-top: 100px;
             h1 {
                 font-size: 35px;
             }

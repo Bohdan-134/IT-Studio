@@ -46,20 +46,28 @@
     }
 }
 
-@media (max-width:1150px) {
+@media (max-width:1024px) {
     #projects {
+        padding: 40px 0 40px;
         .container {
+            p {
+                margin: 30px auto 30px;
+            }
             .projects-img-container {
                 img {
-                    width: 200px;
-                    height: 200px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
+        }
+        button {
+            margin: 25px auto 0;
         }
     }
 }
 
-@media (max-width:900px) {
+
+/* @media (max-width:900px) {
     #projects {
         padding: 50px 0 65px;
         .container {
@@ -101,4 +109,4 @@
             }
         }
     }
-}
+} */

@@ -75,7 +75,46 @@
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:1024px) {
+    #mailing {
+        padding: 0px 0px 40px 0px;
+        .container {
+            margin-top: 100px;
+            padding-top: 40px;
+            h4 {
+                margin-bottom: 15px;
+            }
+            .text-s {
+                margin-bottom: 20px;
+            }
+            .mailing-container-email {
+                input {
+                    width: 230px;
+                    padding: 10px 0 10px 13px;
+                    font-size: 13px;
+                }
+                button {
+                    font-size: 13px;
+                    &:hover {
+                        background: #3259a6;
+                    }
+                }
+            }
+            .mailing-text {
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 21px;
+                text-align: center;
+                color: #999999;
+            }
+        }
+    }
+}
+
+
+/* @media (max-width:900px) {
     #mailing {
         padding: 0px 0px 20px 0px;
         .container {
@@ -142,4 +181,4 @@
             }
         }
     }
-}
+} */

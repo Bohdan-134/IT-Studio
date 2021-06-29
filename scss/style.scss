@@ -41,6 +41,9 @@
 }
 
 @media (max-width:900px) {
+    .container {
+        padding: 0 15px;
+    }
     .h2 {
         font-size: 26px;
     }
