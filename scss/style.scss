@@ -28,30 +28,21 @@
         font-size: 15px;
         line-height: 18px;
     }
-    .link {
-        font-family: $montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        -webkit-text-decoration-line: underline;
-        text-decoration-line: underline;
-        color: #4985FF;
-    }
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
     .container {
+        max-width: 100%;
         padding: 0 15px;
     }
     .h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
     .h4 {
-        font-size: 15px;
+        font-size: 11px;
     }
     .text-s {
-        font-size: 12px;
+        font-size: 10px;
     }
     #footer {
         .container {
