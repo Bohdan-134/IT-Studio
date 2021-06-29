@@ -72,17 +72,43 @@ sans-serif;
     }
 }
 
-@media (max-width:1150px) {
+@media (max-width:1024px) {
+    #standarts {
+        padding: 70px 0 70px;
+        background-color: #F6F6F8;
+    }
     .standards-content-container {
+        display: flex;
+        align-items: center;
+        padding-bottom: 60px;
         .standards-text-block {
             margin-top: 0;
+            margin-right: 10px;
             p {
                 max-width: 400px;
             }
         }
         .standards-img {
-            width: 450px;
-            height: 350px;
+            width: 420px;
+            height: 300px;
+        }
+    }
+    .standards-content-container2 {
+        padding: 60px 0px 0;
+        .standards-content-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div {
+                img {
+                    margin-right: 15px;
+                }
+                p {
+                    font-size: 25px;
+                    line-height: 53px;
+                    color: #000000;
+                }
+            }
         }
     }
 }

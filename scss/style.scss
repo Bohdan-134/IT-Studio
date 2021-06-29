@@ -7,9 +7,36 @@
 @import "our-work.scss";
 @import "mailing.scss";
 @import "footer.scss";
-@media (max-width:1150px) {
+@media (max-width:1024px) {
     .container {
-        max-width: 900px;
+        max-width: 700px;
+    }
+    .button {
+        width: 170px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .text-s {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .h4 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .link {
+        font-family: $montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+        color: #4985FF;
     }
 }
 
