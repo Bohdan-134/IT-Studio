@@ -1437,42 +1437,28 @@ h6 {
     margin-top: 15px;
   }
 }
-/* @media (max-width:900px) {
-    #footer {
-        padding-top: 35px;
-        padding-bottom: 15px;
-        .container {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            padding-bottom: 35px;
-            .footer-content-block {
-                margin-top: 20px;
-                min-width: 255px;
-                span {
-                    font-family: $montserrat;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 22px;
-                    color: #000000;
-                    text-align: left;
-                }
-                ul {
-                    margin-top: 35px;
-                    width: 255px;
-                }
-            }
-        }
-        span {
-            margin-top: 15px;
-        }
-    }
-} */
+@media (max-width: 700px) {
+  #footer {
+    padding: 17px 0 15px;
+  }
+  #footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 17px;
+  }
+  #footer .container .footer-content-block {
+    margin-top: 10px;
+  }
+  #footer .container .footer-content-block ul {
+    margin-top: 17px;
+    width: 255px;
+  }
+}
 @media (max-width: 1024px) {
   .container {
     max-width: 700px;
