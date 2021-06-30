@@ -341,6 +341,10 @@ h6 {
   }
 }
 @media (max-width: 700px) {
+  #header {
+    height: 8%;
+  }
+
   #start-page {
     height: 100vh;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/start-page-bg-700.png);
