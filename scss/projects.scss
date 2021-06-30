@@ -29,16 +29,6 @@
             -ms-flex-pack: justify;
             justify-content: space-between;
             cursor: pointer;
-            img {
-                -webkit-transition: 0.5s;
-                -o-transition: 0.5s;
-                transition: 0.5s;
-                &:hover {
-                    -webkit-transform: scale(1.05);
-                    -ms-transform: scale(1.05);
-                    transform: scale(1.05);
-                }
-            }
         }
         button {
             margin: 50px auto 0;

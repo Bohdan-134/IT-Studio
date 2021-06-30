@@ -623,9 +623,16 @@ h6 {
   height: 400px;
   background: url(../img/standards/standards-img.jpeg);
   background-size: 100% 100%;
+  background-position: center;
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.standards-content-container .standards-img:hover {
+  background-size: 120% 120%;
+  cursor: pointer;
 }
 
 .link {
@@ -1005,14 +1012,6 @@ h6 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
-}
-#projects .container .projects-img-container img {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-#projects .container .projects-img-container img:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
 }
 #projects .container button {
   margin: 50px auto 0;
