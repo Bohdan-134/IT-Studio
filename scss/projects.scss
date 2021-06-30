@@ -77,15 +77,7 @@
                 padding: 0 5px;
                 margin: 0 auto;
                 img {
-                    -webkit-transition: 0s;
-                    -o-transition: 0s;
-                    transition: 0s;
                     margin: 10px;
-                    &:hover {
-                        -webkit-transform: scale(1);
-                        -ms-transform: scale(1);
-                        transform: scale(1);
-                    }
                 }
             }
             button {

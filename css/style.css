@@ -1054,13 +1054,7 @@ h6 {
     margin: 0 auto;
   }
   #projects .container .projects-img-container img {
-    -webkit-transition: 0s;
-    transition: 0s;
     margin: 10px;
-  }
-  #projects .container .projects-img-container img:hover {
-    -webkit-transform: scale(1);
-    transform: scale(1);
   }
   #projects .container button {
     margin: 25px auto 0;
