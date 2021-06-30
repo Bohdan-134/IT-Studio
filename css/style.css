@@ -843,12 +843,6 @@ h6 {
 }
 #specialization .specialization-container .specialization-block-content {
   cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-#specialization .specialization-container .specialization-block-content:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
 }
 #specialization .specialization-container .specialization-block-content img {
   border-radius: 10px;

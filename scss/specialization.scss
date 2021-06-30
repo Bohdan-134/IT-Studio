@@ -42,14 +42,6 @@
         padding: 0px 5px 85px 0px;
         .specialization-block-content {
             cursor: pointer;
-            -webkit-transition: 0.5s;
-            -o-transition: 0.5s;
-            transition: 0.5s;
-            &:hover {
-                -webkit-transform: scale(1.05);
-                -ms-transform: scale(1.05);
-                transform: scale(1.05);
-            }
             img {
                 border-radius: 10px;
                 margin-bottom: 30px;
